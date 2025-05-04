@@ -29,20 +29,19 @@ This is a simple web app that classifies SMS messages as **Spam** or **Not Spam*
 ## 🗂️ Project Structure
 
 sms-spam-classifier/
-│
-├── app.py # Main Streamlit app file
-├── vectorizer.pkl # Saved TF-IDF vectorizer
-├── spam_model.pkl # Trained spam detection model
-├── requirements.txt # Python package dependencies
-├── README.md # Project documentation
-└── assets/ # (Optional) Media/screenshots
+│<br>
+├── app.py # Main Streamlit app file<br>
+├── vectorizer.pkl # Saved TF-IDF vectorizer<br>
+├── spam_model.pkl # Trained spam detection model<br>
+└── README.md # Project documentation<br>
+
 ## Install Dependencies
 Install Dependencies:
-
+bash
 pip install streamlit scikit-learn nltk
 
 Download NLTK resources:
-
+python
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
