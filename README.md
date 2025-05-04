@@ -37,14 +37,19 @@ sms-spam-classifier/
 
 ## Install Dependencies
 Install Dependencies:
-bash
-pip install streamlit scikit-learn nltk
+
+<pre> ```bash pip install streamlit scikit-learn nltk ``` </pre>
 
 Download NLTK resources:
-python
+
+<pre>```python
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
+ ``` 
+</pre>
 ## Run the Streamlit App
-
-streamlit run app.py
+<pre>``` bash
+streamlit run app.py  
+   ```
+</pre>
